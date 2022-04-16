@@ -27,6 +27,7 @@ import numpy as np
 import cv2
 import imghdr
 from PIL import Image
+from PIL import ImageFilter
 import paddlers
 
 from .functions import normalize, horizontal_flip, permute, vertical_flip, center_crop, is_poly, \
@@ -1377,6 +1378,9 @@ class RandomBlur(Transform):
         self.prob = prob
 
     def apply_im(self, image, radius):
+        # img = Image.fromarray(image)
+        # img = img.filter(ImageFilter.GaussianBlur(radius=radius))
+        # image = np.array(img)
         image = cv2.GaussianBlur(image, (radius, radius), 0, 0)
         return image
 
@@ -1389,11 +1393,12 @@ class RandomBlur(Transform):
             n = int(1.0 / self.prob)
         if n > 0:
             if np.random.randint(0, n) == 0:
-                radius = np.random.randint(3, 10)
+                radius = np.random.randint(1, 2)
                 if radius % 2 != 1:
                     radius = radius + 1
-                if radius > 9:
-                    radius = 9
+                # if radius > 9:
+                #     radius = 9
+                # radius = random.random()
                 sample['image'] = self.apply_im(sample['image'], radius)
                 if 'image2' in sample:
                     sample['image2'] = self.apply_im(sample['image2'], radius)
