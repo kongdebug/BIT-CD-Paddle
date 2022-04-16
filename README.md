@@ -140,7 +140,7 @@ bash test_tipc/test_train_inference_python.sh test_tipc/configs/BIT/train_infer_
 ## 6.代码结构与详细说明
 
 ```
-PaddleRS
+BIT-CD-Paddle
 ├── deploy               # 部署相关的文档和脚本
 ├── docs                 # 整个项目图片
 ├── output               # 输出的VDL日志
