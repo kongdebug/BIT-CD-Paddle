@@ -137,6 +137,14 @@ bash test_tipc/test_train_inference_python.sh test_tipc/configs/BIT/train_infer_
 
 <img src=./docs/images/BIT/TIPC.png></img>
 
+** TIPC 完整时间戳 **
+
+![图片](https://user-images.githubusercontent.com/52785738/164203882-920056dd-7d29-4e8c-b276-675d1f1a0432.png)
+![图片](https://user-images.githubusercontent.com/52785738/164203929-cbc789e0-8e29-4371-9ad4-da3ae21e1e6e.png)
+![图片](https://user-images.githubusercontent.com/52785738/164203965-4b16e274-f5a2-4a7c-bb54-d3d2fc8b1ee4.png)
+![图片](https://user-images.githubusercontent.com/52785738/164203998-485dfd46-6c79-4d6c-aca3-c0523e0ed219.png)
+![图片](https://user-images.githubusercontent.com/52785738/164204091-3daf0405-371a-4978-a1c5-4e7154ac2c3c.png)
+
 ## 6.代码结构与详细说明
 
 ```
