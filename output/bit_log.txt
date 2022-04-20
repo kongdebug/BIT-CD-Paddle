@@ -1,0 +1,169 @@
+[04-20 19:39:22 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_5/model.pdparams
+[04-20 19:39:22 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:39:23 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:39:23.073575  8072 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:39:23.079037  8072 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:39:26 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_5/model.pdparams
+2022-04-20 19:39:26 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:39:26 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+OrderedDict([('miou', 0.8602830320046894), ('category_iou', array([0.98411652, 0.73644954])), ('oacc', 0.9847915321588516), ('category_acc', array([0.99111743, 0.86270167])), ('kappa', 0.8402215808336859), ('category_F1-score', array([0.99199468, 0.84822452]))])
+
+[04-20 19:44:06 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_10/model.pdparams
+[04-20 19:44:06 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:44:07 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:44:07.032572  8387 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:44:07.038365  8387 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:44:11 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_10/model.pdparams
+2022-04-20 19:44:11 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:44:11 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+OrderedDict([('miou', 0.8741600935757885), ('category_iou', array([0.98598041, 0.76233978])), ('oacc', 0.9865837469696999), ('category_acc', array([0.99168908, 0.88651982])), ('kappa', 0.8580901002975408), ('category_F1-score', array([0.99294072, 0.86514506]))])
+
+[04-20 19:46:35 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_15/model.pdparams
+[04-20 19:46:35 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:46:36 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:46:36.116490  8560 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:46:36.122237  8560 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:46:39 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_15/model.pdparams
+2022-04-20 19:46:39 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:46:39 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+OrderedDict([('miou', 0.8723781825936259), ('category_iou', array([0.9860614 , 0.75869497])), ('oacc', 0.9866466075181961), ('category_acc', array([0.99060653, 0.90522734])), ('kappa', 0.8557911255284063), ('category_F1-score', array([0.99298179, 0.86279313]))])
+
+
+[04-20 19:50:36 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_20/model.pdparams
+[04-20 19:50:36 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:50:37 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:50:37.522279  8857 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:50:37.528208  8857 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:50:41 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_20/model.pdparams
+2022-04-20 19:50:41 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:50:41 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+OrderedDict([('miou', 0.8743772077845082), ('category_iou', array([0.98664483, 0.76210958])), ('oacc', 0.9871927872300148), ('category_acc', array([0.98963134, 0.93411305])), ('kappa', 0.858312960857549), ('category_F1-score', array([0.99327753, 0.86499681]))])
+
+[04-20 19:54:25 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_25/model.pdparams
+[04-20 19:54:25 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:54:25 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:54:25.945437  9107 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:54:25.951072  9107 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:54:29 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_25/model.pdparams
+2022-04-20 19:54:29 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:54:29 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.884113789393731, F1-Score:[0.99372583 0.87684472]
+
+[04-20 19:54:55 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_30/model.pdparams
+[04-20 19:54:55 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:54:56 [INFO]      2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:54:56.228809  9177 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:54:56.234196  9177 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:54:59 [INFO]      Loading pretrained model from ../work/output/BIT/epoch_30/model.pdparams
+2022-04-20 19:55:00 [INFO]      There are 203/203 variables loaded into BIT.
+2022-04-20 19:55:00 [INFO]      Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.884819087137547, F1-Score:[0.99350736 0.87800535]
+
+[04-20 19:56:48 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_35/model.pdparams
+[04-20 19:56:48 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:56:48 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:56:48.713241  9319 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:56:48.718943  9319 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:56:52 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_35/model.pdparams
+2022-04-20 19:56:52 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:56:52 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8903154760934232, F1-Score:[0.99376396 0.88456705]
+
+[04-20 19:57:42 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_40/model.pdparams
+[04-20 19:57:42 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:57:42 [INFO]      2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:57:42.651355  9400 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:57:42.657220  9400 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:57:46 [INFO]      Loading pretrained model from ../work/output/BIT/epoch_40/model.pdparams
+2022-04-20 19:57:46 [INFO]      There are 203/203 variables loaded into BIT.
+2022-04-20 19:57:46 [INFO]      Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8842018535782401, F1-Score:[0.99340566 0.87735432]
+
+[04-20 19:59:30 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_45/model.pdparams
+[04-20 19:59:30 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 19:59:30 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 19:59:30.618129  9573 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 19:59:30.623838  9573 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 19:59:34 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_45/model.pdparams
+2022-04-20 19:59:34 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 19:59:34 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8505876355361042, F1-Score:[0.99129801 0.83614634]
+
+paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:04:13 [INFO]      2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:04:13.616067  9894 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:04:13.621577  9894 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:04:17 [INFO]      Loading pretrained model from ../work/output/BIT/epoch_50/model.pdparams
+2022-04-20 20:04:17 [INFO]      There are 203/203 variables loaded into BIT.
+2022-04-20 20:04:17 [INFO]      Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8816757999110256, F1-Score:[0.99359422 0.87392562]
+
+[04-20 20:05:14 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_55/model.pdparams
+[04-20 20:05:14 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:05:15 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:05:15.562319 10006 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:05:15.567811 10006 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:05:19 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_55/model.pdparams
+2022-04-20 20:05:19 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 20:05:19 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8819961274948994, F1-Score:[0.99356839 0.87436398]
+
+[04-20 20:06:52 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_60/model.pdparams
+[04-20 20:06:52 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:06:53 [INFO]      2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:06:53.287956 10147 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:06:53.293681 10147 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:06:57 [INFO]      Loading pretrained model from ../work/output/BIT/epoch_60/model.pdparams
+2022-04-20 20:06:57 [INFO]      There are 203/203 variables loaded into BIT.
+2022-04-20 20:06:57 [INFO]      Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8394388394377629, F1-Score:[0.99129825 0.82084583]
+
+[04-20 20:07:30 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_65/model.pdparams
+[04-20 20:07:30 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:07:30 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:07:30.981441 10210 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:07:30.986948 10210 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:07:34 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_65/model.pdparams
+2022-04-20 20:07:34 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 20:07:34 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.893687077409241, F1-Score:[0.99420619 0.88820638]
+
+[04-20 20:10:13 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_70/model.pdparams
+[04-20 20:10:13 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:10:13 [INFO]      2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:10:13.739228 10429 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:10:13.744925 10429 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:10:17 [INFO]      Loading pretrained model from ../work/output/BIT/epoch_70/model.pdparams
+2022-04-20 20:10:17 [INFO]      There are 203/203 variables loaded into BIT.
+2022-04-20 20:10:17 [INFO]      Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8816174544295828, F1-Score:[0.99336328 0.87414066]
+
+[04-20 20:10:20 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_75/model.pdparams
+[04-20 20:10:20 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:10:21 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:10:21.024130 10469 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:10:21.029403 10469 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:10:24 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_75/model.pdparams
+2022-04-20 20:10:24 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 20:10:24 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8869779578246844, F1-Score:[0.99380599 0.88034698]
+
+[04-20 20:14:31 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_80/model.pdparams
+[04-20 20:14:31 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:14:31 [INFO]      2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:14:31.651561 10772 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:14:31.657114 10772 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:14:35 [INFO]      Loading pretrained model from ../work/output/BIT/epoch_80/model.pdparams
+2022-04-20 20:14:35 [INFO]      There are 203/203 variables loaded into BIT.
+2022-04-20 20:14:35 [INFO]      Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8790084425272332, F1-Score:[0.99340872 0.87076665]
+
+[04-20 20:14:59 MainThread @logger.py:242] Argv: tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../work/output/BIT/epoch_85/model.pdparams
+[04-20 20:14:59 MainThread @utils.py:79] WRN paddlepaddle version: 2.2.2. The dynamic graph version of PARL is under development, not fully tested and supported
+2022-04-20 20:15:00 [INFO]	2048 samples in file ../LEVIR-CD/test.txt
+W0420 20:15:00.449095 10833 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0420 20:15:00.454224 10833 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+2022-04-20 20:15:04 [INFO]	Loading pretrained model from ../work/output/BIT/epoch_85/model.pdparams
+2022-04-20 20:15:04 [INFO]	There are 203/203 variables loaded into BIT.
+2022-04-20 20:15:04 [INFO]	Start to evaluate(total_samples=2048, total_steps=2048)...
+miou:0.8980501731845956, F1-Score:[0.99443393 0.89329779]
