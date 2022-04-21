@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     DATA_DIR = args.data_dir
     TRAIN_FILE_LIST_PATH = os.path.join(DATA_DIR,'train.txt')
-    EVAL_FILE_LIST_PATH = os.path.join(DATA_DIR,'val.txt')
+    EVAL_FILE_LIST_PATH = os.path.join(DATA_DIR,'test.txt')
     EXP_DIR = args.out_dir
     LR = args.lr
     NUM_EPOCHS = args.num_epoch
