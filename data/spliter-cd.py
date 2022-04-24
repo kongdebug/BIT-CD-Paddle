@@ -15,6 +15,10 @@ def GetFileNameAndExt(filename):
 
 def split_data_cd(image_folder, block_size, save_folder):
     img_ext = [".jpg", ".png"]
+    if image_folder==save_folder:
+        raise ValueError(
+                        "Input folder:{} and save folder:{} cannot be the same directory.".
+                        format(image_folder, save_folder))
     for root, dirs, files in os.walk(image_folder):
         for dir in dirs:
             a = root[len(image_folder) + 1:]
