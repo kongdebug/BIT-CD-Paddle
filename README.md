@@ -51,10 +51,10 @@ python data/process_levir_data.py --data_dir ../LEVIR-CD
 
 ### 模型训练
 
-运行一下命令进行SNUNET模型训练，在训练过程中会对模型进行评估，启用了VisualDL日志功能，运行之后在`output/BIT/vdl_log` 文件夹下找到对应的日志文件
+运行一下命令进行BIT模型训练，在训练过程中会对模型进行评估，启用了VisualDL日志功能，运行之后在`output/BIT/vdl_log` 文件夹下找到对应的日志文件
 
 ```shell
-python tutorials/train/bit_train.py --data_dir=../LEVIR-CD --out_dir=./output/BIT/
+python tutorials/train/change_detection/bit_train.py --data_dir=../LEVIR-CD --out_dir=./output/BIT/
 ```
 
 **参数介绍**：
@@ -68,7 +68,7 @@ python tutorials/train/bit_train.py --data_dir=../LEVIR-CD --out_dir=./output/BI
 
 ### 模型验证
 
-除了可以再训练过程中验证模型精度，可以使用eval_snunet.py脚本进行测试，权重文件可在[百度云盘下载](https://pan.baidu.com/s/1UU96Deo-fHyVfOfjEiq2ww)，提取码:hfjs 
+除了可以再训练过程中验证模型精度，可以使用bit_eval.py脚本进行测试，权重文件可在[百度云盘下载](https://pan.baidu.com/s/1UU96Deo-fHyVfOfjEiq2ww)，提取码:hfjs 
 
 ```shell
 python tutorials/eval/change_detection/bit_eval.py --data_dir=../LEVIR-CD/ --weight_path=../output/BIT/best_model/model.pdparams
@@ -177,4 +177,5 @@ BIT-CD-Paddle
 | --- | --- |
 |模型名称| BIT-CD |
 |框架版本| PaddlePaddle==2.2.2|
-|应用场景| 遥感图像变化检测 
+|应用场景| 遥感图像变化检测|
+|在线体验|[【第六期论文复现赛-变化检测】BIT](https://aistudio.baidu.com/aistudio/projectdetail/3875161)|
